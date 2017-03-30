@@ -2,10 +2,10 @@
 # Fork from:
 # https://hub.docker.com/r/amancevice/pandas
 FROM continuumio/anaconda
-MAINTAINER phirov@163.com
+MAINTAINER null
 
 ENV BOKEH_APP demo.py
-ENV APP_URL bokeh-demo-goldwind.myalauda.cn
+ENV APP_URL westuswebapp1.azurewebsites.net
 ENV APP_PORT 5006
 
 EXPOSE 5006
