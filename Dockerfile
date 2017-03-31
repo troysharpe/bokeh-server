@@ -5,7 +5,7 @@ FROM continuumio/anaconda
 MAINTAINER null
 
 ENV BOKEH_APP demo.py
-ENV APP_URL westuswebapp1.azurewebsites.net
+ENV APP_URL 127.0.0.1
 ENV APP_PORT 5006
 
 EXPOSE 5006
